@@ -1,0 +1,31 @@
+.box {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.box .left {
+  padding-right: 25px;
+}
+.box .left img {
+  height: 100%;
+  width: 293px;
+}
+.box .right {
+  width: 550px;
+}
+.box .right h1 {
+  font-family: Roboto Condensed;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.box .right p {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}/*# sourceMappingURL=Homepage.css.map */

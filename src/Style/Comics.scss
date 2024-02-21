@@ -1,0 +1,40 @@
+.banner {
+  margin-top: 50px;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.section {
+  margin-top: 50px;
+  .cards {
+    .card {
+      border: none;
+      width: 225px;
+
+      img {
+        width: 225px;
+        height: 100%;
+      }
+      h5 {
+        font-family: Roboto Condensed;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        color: #000000;
+      }
+      p {
+        font-family: Roboto Condensed;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00000099;
+      }
+    }
+  }
+}

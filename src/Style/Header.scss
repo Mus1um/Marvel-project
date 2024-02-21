@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    font-family: "Roboto Condensed";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    b {
+      color: #9f0013;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    a {
+      color: #000;
+      font-family: "Roboto Condensed";
+      font-weight: 700;
+      list-style: none;
+      text-decoration: none;
+    }
+    .active {
+      color: #9f0013;
+    }
+  }
+}

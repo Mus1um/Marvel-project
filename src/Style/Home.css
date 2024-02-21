@@ -1,0 +1,246 @@
+.section .section2 {
+  margin-top: 50px;
+}
+.section .section2 .left-box {
+  display: flex;
+  box-shadow: 0 0 10px gray;
+  padding: 35px 40px;
+  align-items: center;
+}
+.section .section2 .left-box img {
+  height: 100%;
+  padding-right: 30px;
+}
+.section .section2 .left-box .text h1 {
+  color: #000;
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section .section2 .left-box .text p {
+  color: #000;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section .section2 .left-box .text .buttons {
+  display: flex;
+  gap: 30px;
+}
+.section .section2 .left-box .text .buttons button {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+          clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+}
+.section .section2 .right-box {
+  display: flex;
+  background-color: black;
+  padding: 35px 0;
+  align-items: center;
+}
+.section .section2 .right-box .left {
+  padding-left: 40px;
+}
+.section .section2 .right-box .left p {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section .section2 .right-box .left button {
+  padding: 11px 18px;
+  background: #9f0013;
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+          clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+}
+.section .section3 {
+  margin: 53px 0;
+}
+.section .section3 .cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 15px;
+}
+.section .section3 .cards .cardd {
+  box-shadow: 0 0 10px gray;
+  width: 200px;
+  height: 318px;
+  transition: all 300ms;
+}
+.section .section3 .cards .cardd .img img {
+  width: 200px;
+  height: 200px;
+}
+.section .section3 .cards .cardd .text {
+  padding: 15px;
+  padding-bottom: 75px;
+  background: #232222;
+}
+.section .section3 .cards .cardd .text h3 {
+  height: 20px;
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section .section3 .cards .activecard {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px red;
+}
+.section .section3 .load-button {
+  margin: 45px auto;
+}
+.section .section3 .load-button .btn {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+          clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+  background: #9f0013;
+  border-radius: 0;
+}
+.section .section3 .left-box .left-box1 {
+  position: relative;
+  width: 425px;
+  height: 294px;
+  box-shadow: 0 0 10px gray;
+}
+.section .section3 .left-box .left-box1 p {
+  top: 25px;
+  left: 54px;
+  position: absolute;
+  color: #000;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section .section3 .left-box .left-box1 img {
+  bottom: 25px;
+  left: 25px;
+  position: absolute;
+}
+.section .section3 .left-box .left-box2 {
+  box-shadow: 0 0 10px gray;
+}
+.section .section3 .left-box .left-box2 .top {
+  display: flex;
+  padding: 25px 125px 25px 25px;
+  align-items: center;
+}
+.section .section3 .left-box .left-box2 .top img {
+  height: 100%;
+  width: 200px;
+  padding-right: 25px;
+}
+.section .section3 .left-box .left-box2 .top .top-text h2 {
+  color: #000;
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section .section3 .left-box .left-box2 .top .top-text .buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 35px;
+}
+.section .section3 .left-box .left-box2 .top .top-text .buttons button {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+          clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+  border-radius: 0;
+}
+.section .section3 .left-box .left-box2 .center {
+  padding: 25px;
+}
+.section .section3 .left-box .left-box2 .center h3 {
+  color: #000;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section .section3 .left-box .left-box2 .center .box {
+  transition: all 300ms;
+  padding: 5px 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.section .section3 .left-box .left-box2 .center .box:hover {
+  background-color: #9f0013;
+  color: #fff;
+}
+.section .section3 .left-box .left-box3 {
+  box-shadow: 0 0 10px gray;
+  margin-top: 30px;
+  padding: 25px;
+}
+.section .section3 .left-box .left-box3 h5 {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section .section3 .left-box .left-box3 input {
+  width: 250px;
+  height: 38px;
+  padding: 5px;
+  border: none;
+  box-shadow: 0 0 10px gray;
+}
+.section .section3 .left-box .left-box3 button {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+          clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+  background: #9f0013;
+  border-radius: 0;
+  padding: 11px 18px;
+  margin-left: 24px;
+}
+
+.hide {
+  display: none;
+}/*# sourceMappingURL=Home.css.map */
